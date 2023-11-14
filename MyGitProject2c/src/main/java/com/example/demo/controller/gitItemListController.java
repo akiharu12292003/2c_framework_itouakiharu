@@ -1,5 +1,16 @@
 package com.example.demo.controller;
 
-public class gitItemListController {
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
+@Controller
+public class gitItemListController {
+    
+
+    // 最初のページ
+	@RequestMapping(path = "/gititemlist", method = RequestMethod.GET)
+    public String doEditGet() {
+        return "gititemlist";
+    }
 }
