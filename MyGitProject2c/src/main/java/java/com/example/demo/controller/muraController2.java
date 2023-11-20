@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package java.com.example.demo.controller;
 
 public class muraController2 {
 
